@@ -1,0 +1,9 @@
+##fileformat=VCFv4.2
+##FILTER=<ID=PASS,Description="All filters passed">
+##contig=<ID=1,length=6>
+##contig=<ID=2,length=6>
+##ALT=<ID=*,Description="Represents allele(s) other than observed.">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	Example1	Example2
+1	2	.	C	A	.	.	.	GT	0/1	1/1
+1	5	.	G	T	.	.	.	GT	0/1	1/1

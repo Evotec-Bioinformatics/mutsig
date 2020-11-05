@@ -1,0 +1,17 @@
+##fileformat=VCFv4.2
+##FILTER=<ID=PASS,Description="All filters passed">
+##contig=<ID=seq1,length=1575>
+##contig=<ID=seq2,length=1584>
+##ALT=<ID=*,Description="Represents allele(s) other than observed.">
+##FORMAT=<ID=PL,Number=G,Type=Integer,Description="List of Phred-scaled genotype likelihoods">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##bcftools_normVersion=1.9+htslib-1.9
+##bcftools_normCommand=norm -f ex1.fa.gz --check-ref s ex1.vcf; Date=Sun May 10 19:08:18 2020
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	Example1	Example2
+seq1	288	.	A	ACATAG	222	.	.	GT:PL	0/1:255,0,255	0/0:0,255,255
+seq1	548	.	C	A	130	.	.	GT:PL	0/1:163,0,192	0/1:163,0,192
+seq1	1294	.	A	G	142	.	.	GT:PL	0/0:175,0,178	0/1:175,0,178
+seq2	156	.	A	AAG	58	.	.	GT:PL	0/1:91,0,39	0/1:91,0,39
+seq2	505	.	A	G	155	.	.	GT:PL	0/1:188,0,198	0/1:188,0,198
+seq2	784	.	C	CAATT	219	.	.	GT:PL	0/1:255,0,61	0/1:255,0,61
+seq2	1344	.	A	C,G	103	.	.	GT:PL	0/1:136,0,172	0/2:136,0,172
