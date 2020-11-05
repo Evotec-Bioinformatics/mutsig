@@ -9,7 +9,7 @@ Count number of single-nucleotide-variations in a single- or multi-sample VCF fi
 mutsig my_sample.vcf.gz reference_genome.fa.gz > singlets.txt
 ``` 
 The output will be a simple matrix in tab-separated text format containing the 
-variant in the first column followed by the samples in the 
+variant in the first column followed by the samples in the following columns.
 
 To count single-nucleotide variations in triplets, specify the window-size (i.e., number of bases up- and downstream to consider).
 ```bash
